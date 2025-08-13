@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVadis与ESG报告对比分析</title>
+    <style>
+        :root {
+            --primary-color: #2e7d32;
+            --secondary-color: #455a64;
+            --accent-color: #ff8f00;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 30px 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+        h3 {
+            color: var(--secondary-color);
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .comparison-table th, .comparison-table td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        .comparison-table th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: bold;
+        }
+        .comparison-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .comparison-table tr:hover {
+            background-color: #f1f8e9;
+        }
+        .key-point {
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-left: 4px solid var(--primary-color);
+            margin: 20px 0;
+        }
+        .synergy-box {
+            background-color: #fff3e0;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border: 1px solid var(--accent-color);
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: var(--secondary-color);
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            .comparison-table {
+                display: block;
+                overflow-x: auto;
+            }
+            body {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EcoVadis与ESG报告对比分析</h1>
+        <p>企业可持续发展的双轨工具：互补与协同</p>
+    </header>
+
+    <section>
+        <h2>一、核心区别</h2>
+        
+        <div class="key-point">
+            <h3>性质与目标</h3>
+            <p><strong>EcoVadis</strong>是全球供应链可持续发展评级平台，通过标准化评估推动供应商改进[1](@ref)[6](@ref)；<strong>ESG报告</strong>是企业自主披露的非财务报告，全面展示环境、社会与治理绩效[1](@ref)[3](@ref)。</p>
+        </div>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>对比维度</th>
+                    <th>EcoVadis</th>
+                    <th>ESG报告</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>评估主体</strong></td>
+                    <td>第三方机构（EcoVadis）通过AI+专家审核[2](@ref)[6](@ref)</td>
+                    <td>企业自行编制，可能经第三方审计[1](@ref)[3](@ref)</td>
+                </tr>
+                <tr>
+                    <td><strong>内容范围</strong></td>
+                    <td>四大主题：环境、劳工与人权、商业道德、可持续采购（21项标准）[1](@ref)[6](@ref)</td>
+                    <td>三大维度：环境(E)、社会(S)、治理(G)，覆盖更广[1](@ref)[3](@ref)</td>
+                </tr>
+                <tr>
+                    <td><strong>评估方法</strong></td>
+                    <td>在线问卷+文件验证（需提交最多55份证据）[2](@ref)[6](@ref)</td>
+                    <td>定性描述+定量数据，遵循GRI、TCFD等框架[3](@ref)[4](@ref)</td>
+                </tr>
+                <tr>
+                    <td><strong>结果形式</strong></td>
+                    <td>0-100分及奖牌（铂金/金/银/铜）[6](@ref)</td>
+                    <td>综合性报告（文字+图表）[1](@ref)[3](@ref)</td>
+                </tr>
+                <tr>
+                    <td><strong>主要用户</strong></td>
+                    <td>采购方、供应商（供应链管理）[1](@ref)[2](@ref)</td>
+                    <td>投资者、监管机构、公众（投资决策）[1](@ref)[3](@ref)</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>二、关联性与协同价值</h2>
+        
+        <div class="synergy-box">
+            <h3>ESG报告如何支持EcoVadis评级？</h3>
+            <ul>
+                <li><strong>证据来源</strong>：ESG报告中的量化数据（如碳排放）可直接作为EcoVadis环境主题的验证材料[1](@ref)[6](@ref)</li>
+                <li><strong>战略一致性</strong>：ESG长期目标（如碳中和）可提升EcoVadis评分中的"政策先进性"指标[3](@ref)[6](@ref)</li>
+                <li><strong>透明度增强</strong>：符合GRI标准的ESG报告能减少EcoVadis审核中的文件补充要求[3](@ref)[4](@ref)</li>
+            </ul>
+        </div>
+
+        <h3>协同应用场景</h3>
+        <ol>
+            <li><strong>供应链管理</strong>：跨国公司可要求供应商同时提交EcoVadis评分和ESG报告，全面评估可持续性[1](@ref)[2](@ref)</li>
+            <li><strong>合规效率</strong>：ESG报告满足CSRD等披露要求，EcoVadis评分符合供应链审核需求，减少重复工作[3](@ref)[6](@ref)</li>
+            <li><strong>持续改进</strong>：EcoVadis的改进建议可指导ESG报告重点优化领域（如可持续采购）[1](@ref)[4](@ref)</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>三、实施建议</h2>
+        
+        <div class="key-point">
+            <h3>企业最佳实践</h3>
+            <p>1. <strong>数据整合</strong>：建立统一数据库，同步支撑ESG报告编制和EcoVadis问卷填写[3](@ref)[6](@ref)</p>
+            <p>2. <strong>流程协同</strong>：将EcoVadis年度更新周期与ESG报告发布计划对齐[4](@ref)[6](@ref)</p>
+            <p>3. <strong>能力建设</strong>：培训团队同时掌握ESG披露框架和EcoVadis评估标准[1](@ref)[4](@ref)</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 可持续发展智库 | 数据来源：EcoVadis官方文档、GRI标准及行业分析报告[1](@ref)[2](@ref)[3](@ref)[4](@ref)[6](@ref)</p>
+        <p>最后更新：2025年8月13日</p>
+    </footer>
+</body>
+</html>
